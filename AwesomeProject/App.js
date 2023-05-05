@@ -62,7 +62,7 @@ const RegisterForm = () => {
         value={username}
         onChangeText={setName}
         autoCapitalize="none"
-        keyboardType="username"
+        keyboardType="user"
       />
       <TextInput
         style={styles.input}
